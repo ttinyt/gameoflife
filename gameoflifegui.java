@@ -36,7 +36,7 @@ public class gameoflifegui {
             for (int k = 0; k < verden.rutenett.antKolonner; k++) {
                 JButton button = new JButton();
 
-                button.setPreferredSize(new Dimension(45, 45));
+                button.setPreferredSize(new Dimension(47, 47));
                 button.setBackground(Color.WHITE);
 
                 button.addActionListener(new ActionListener() {
